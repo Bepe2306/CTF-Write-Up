@@ -19,7 +19,7 @@ i tried to decrypt it using cyberchef which turns out is the other part of the f
 
 ![image](https://github.com/Bepe2306/CTF-Write-Up/assets/153899054/8921411b-e825-44b6-b1c1-cd8a7cc61872)
 
-**FLAG:** HTB{w1ll_y0u_St4nd_y0uR_Gr0uNd!!}
+**FLAG:** `HTB{w1ll_y0u_St4nd_y0uR_Gr0uNd!!}`
 
 
 # **Urgent**
@@ -36,4 +36,4 @@ i tried to decode it again which gave me the flag of this challenge
 
 ![image](https://github.com/Bepe2306/CTF-Write-Up/assets/153899054/dc9dd28e-39e8-46ca-9bd5-5f886f296510)
 
-**FLAG:** HTB{4n0th3r_d4y_4n0th3r_ph1shi1ng_4tt3mpT}
+**FLAG:** `HTB{4n0th3r_d4y_4n0th3r_ph1shi1ng_4tt3mpT}`
