@@ -35,4 +35,21 @@ After analyzing from ghidra, i found just a bunch of function that i do not real
 ![image](https://github.com/Bepe2306/CTF-Write-Up/assets/153899054/6176aa02-2804-4a0f-b076-10c8f460c798)
 
 It seems that the flag is hidden somewhere in this file but i did not have enough knowledge to find a way to extract it.
-I tried to watch some tutorial from youtube till found this tutorial
+I tried to watch some tutorial from youtube till found this [tutorial](https://www.youtube.com/watch?v=0jVikfySiII&t=384s).
+
+It seems that this ELF file is packed in a UPX format.
+I tried to follow the tutorial by executing command `strings`
+
+![image](https://github.com/Bepe2306/CTF-Write-Up/assets/153899054/93b1865a-eb9d-4786-838c-7a650853b495)
+
+i found a piece of the flag and a confirmation that this file is packed in UPX format
+
+So i tried to unpack it by executing command `upx-ucl -d packed`
+
+![image](https://github.com/Bepe2306/CTF-Write-Up/assets/153899054/1bab957d-4b5d-4ccd-bf04-117ddb1d8722)
+
+After i successfully unpacked it, i tried to run command `strings` again but this time with `grep HTB` so i can get the flag instantly
+
+![image](https://github.com/Bepe2306/CTF-Write-Up/assets/153899054/7a18695d-d21b-44f6-9d62-4331ef8dda91)
+
+**FLAG:** `HTB{unp4ck3d_th3_s3cr3t_0f_th3_p455w0rd}`
