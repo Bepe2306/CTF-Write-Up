@@ -20,3 +20,20 @@ i tried to decrypt it using cyberchef which turns out is the other part of the f
 ![image](https://github.com/Bepe2306/CTF-Write-Up/assets/153899054/8921411b-e825-44b6-b1c1-cd8a7cc61872)
 
 **FLAG:** HTB{w1ll_y0u_St4nd_y0uR_Gr0uNd!!}
+
+
+# **Urgent**
+
+in this challenge i was given an .eml file that consist of 2 parts of a very long base64 encrypted data
+
+![image](https://github.com/Bepe2306/CTF-Write-Up/assets/153899054/9f874960-e752-4db0-9441-3bf0584d1e50)
+
+i tried to merge those 2 parts and decode it in cyberchef. After i decode it, it turns out to be a html file, after i analyze it more, i found some url encoded data
+
+![image](https://github.com/Bepe2306/CTF-Write-Up/assets/153899054/10e1d3d8-2d93-40bb-91c9-57b859345525)
+
+i tried to decode it again which gave me the flag of this challenge
+
+![image](https://github.com/Bepe2306/CTF-Write-Up/assets/153899054/dc9dd28e-39e8-46ca-9bd5-5f886f296510)
+
+**FLAG:** HTB{4n0th3r_d4y_4n0th3r_ph1shi1ng_4tt3mpT}
