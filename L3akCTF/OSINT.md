@@ -50,3 +50,44 @@ so i suggest that the picture was taken on the street, left side of the recommen
 ![image](https://github.com/Bepe2306/CTF-Write-Up/assets/153899054/74a90e1d-3ebb-43a3-aa36-3f790540114d)
 
 **FLAG:** `L3AK{Verr4zz4n0_Br1dge_1s_pR3tty_c00l}`
+
+
+# *Geosint-2*
+
+in this challenge, the same like the previous one, i was given a picture
+
+![image](https://github.com/Bepe2306/CTF-Write-Up/assets/153899054/c7217a78-4f12-436c-80ef-7facbd76ef5c)
+
+i quickly tried to find the point of interest on this picture, when i turn i right i saw a few russian alphabeths which made me think that this is in russia.
+So i tried to use google image to find it
+
+![image](https://github.com/Bepe2306/CTF-Write-Up/assets/153899054/900fdab5-72b6-4484-af48-6b67e155227b)
+
+At first, i still had a strong feeling that this picture is in russia, but the more i scroll it the more it began to gave me some random places like Kyiv, Ukraine.
+
+From this clue, it made me realized that, it is not only russia that use russian alphabeths, but there are some country that used to be in the Uni Soviet part that use Russian alphabets as well (sorry nerd stuff).
+
+So then since that picture did not give me any clear clue, i tried to find another point of interest untill i found this stall
+
+![geo2 3](https://github.com/Bepe2306/CTF-Write-Up/assets/153899054/2cbfdbd2-cd4b-4709-b11e-36c83bda3a55)
+
+From this point of interest, when i tried to google image it, i found a website that gave me details of the location
+
+![image](https://github.com/Bepe2306/CTF-Write-Up/assets/153899054/1532f309-6c4a-4481-bd94-9ef41e28a5a6)
+
+from the map given from this website, i could see that this place is in Karaganda City. But Karaganda City is a quite big city which made me think twice again to find the exact location.
+
+When i tried to zoom out, i found another place that could be a point of interest on the map
+
+![image](https://github.com/Bepe2306/CTF-Write-Up/assets/153899054/7955508a-864d-47c3-8cb2-3d20233fb4dd)
+
+there is a cinema called `Sary Arka Cinema 3D`. From this cinema, i tried to use google map to find the exact location
+
+![image](https://github.com/Bepe2306/CTF-Write-Up/assets/153899054/4e00be50-3548-43df-8dd7-bd719610d9ac)
+
+It seems that it is very similar to the location given on the other map website. So i tried to choose the right pinpoint on the google map inspired by the pinpoint of the other map website
+which turns out was the right location and i got the flag of this challenge
+
+![image](https://github.com/Bepe2306/CTF-Write-Up/assets/153899054/d672021a-9616-4e36-9459-e8c77c5d64e1)
+
+**FLAG:** `L3AK{@_Cr0SsR04Ds_1N_kaZAKh5t4N}`
