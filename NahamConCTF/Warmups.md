@@ -93,16 +93,3 @@ So it is just as simple hash the random words to a MD5 hash and wrap it in a fla
 ![image](https://github.com/Bepe2306/CTF-Write-Up/assets/153899054/2b275d0d-dbcb-4a86-bbba-44c28060fbaa)
 
 **FLAG:** `flag{44d88612fea8a8f36de82e1278abb02f}`
-
-
-# **Copypasta**
-
-In this challenge i was told to run an nc command which is `nc challenge.nahamcon.com 31476`
-
-after i did the command, i was given a few explanation about unix.
-At first i did not really understand what the explanation was about, i was stuck for a few minutes trying to figure it out what the explanation wanted.
-
-But then again i remembered that the name of this challenge was `Copypasta`. So i just copy those explanations and paste it to cyberchef and turns out it gave me the flag of this challenge (the flag just pop out)
-
-
-**FLAG:** ``
